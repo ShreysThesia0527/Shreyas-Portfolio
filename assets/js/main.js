@@ -12,4 +12,18 @@
    }));
  }
  document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
+ const filterButtons = [...document.querySelectorAll('[data-filter]')];
+ const projectCards = [...document.querySelectorAll('.project-card[data-category]')];
+ filterButtons.forEach(button => button.addEventListener('click', () => {
+   const filter = button.dataset.filter;
+   filterButtons.forEach(item => {
+     const active = item === button;
+     item.classList.toggle('active', active);
+     item.setAttribute('aria-pressed', String(active));
+   });
+   projectCards.forEach(card => {
+     const visible = filter === 'all' || card.dataset.category === filter;
+     card.classList.toggle('is-hidden', !visible);
+   });
+ }));
 })();
