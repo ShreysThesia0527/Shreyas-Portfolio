@@ -1,25 +1,27 @@
 # Shreyas Thesia — Cybersecurity Portfolio
 
-A responsive, multi-page personal portfolio with a dark Cybersecurity Command Center theme. Built with plain HTML, CSS, and vanilla JavaScript.
+A responsive, multi-page portfolio for information security, GRC, IT audit, and security operations. Built with HTML, CSS, and vanilla JavaScript.
 
 ## Pages
-- Overview
+- Overview and professional summary
 - About
 - Experience
-- Projects
-- Skills
-- Contact
+- Projects with interactive category filters
+- Skills and tools
+- Contact with LinkedIn, GitHub, email, and phone links
+
+## Links
+- **LinkedIn:** https://www.linkedin.com/in/shreyas-thesia-9077b520a/
+- **GitHub:** https://github.com/ShreysThesia0527
+- **Website:** https://shreysthesia0527.github.io/Shreyas-Portfolio/
 
 ## Publish with GitHub Pages
-This repository includes a GitHub Actions workflow that prepares and publishes the site to GitHub Pages when changes are pushed to `main`.
+This repository includes a GitHub Actions workflow that publishes the site when changes are pushed to `main`.
 
 1. Open **Settings → Pages** in this repository.
-2. If prompted, set the publishing source to **GitHub Actions**.
+2. If prompted, choose **GitHub Actions** as the publishing source.
 3. Open the **Actions** tab and check the **Deploy portfolio to GitHub Pages** workflow.
-4. Once deployment succeeds, the site should be available at:
-   `https://shreysthesia0527.github.io/Shreyas-Portfolio/`
-
-If Pages is not enabled automatically, enable it under Settings → Pages and select GitHub Actions as the source.
+4. After a successful deployment, open the website link above.
 
 ## Before sharing publicly
 Review contact details and professional history. Do not publish client-bank information, confidential audit evidence, internal IP addresses, credentials, or proprietary company materials.
