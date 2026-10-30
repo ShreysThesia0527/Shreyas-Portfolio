@@ -17,7 +17,7 @@ This repository includes a GitHub Actions workflow that prepares and publishes t
 2. If prompted, set the publishing source to **GitHub Actions**.
 3. Open the **Actions** tab and check the **Deploy portfolio to GitHub Pages** workflow.
 4. Once deployment succeeds, the site should be available at:
-   `https://shreyasthesia0527.github.io/Shreyas-Portfolio/`
+   `https://shreysthesia0527.github.io/Shreyas-Portfolio/`
 
 If Pages is not enabled automatically, enable it under Settings → Pages and select GitHub Actions as the source.
 
